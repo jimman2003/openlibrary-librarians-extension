@@ -1,0 +1,11 @@
+{
+  "name": "Openlibrary Libarian Extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "scripting","contextMenus"],
+  "host_permissions": ["https://openlibrary.org/"],
+  "action": {}
+}
